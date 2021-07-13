@@ -47,13 +47,18 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+.logo{
+    display: flex;
+    align-items: center;
+}
 .logo img{
     width:40.42px ;
     height: 51px;
 }
-.logo span{
+.logo p{
     font-size: 24px;
     color: #fff;
+    margin-left: 5px;
 }
 nav ul {
     display: flex;
@@ -90,14 +95,17 @@ nav ul li a{
 .pleyer{
     display: flex;
     align-items: center;
+    margin-bottom: 30px;
 }
 .pleyer-img img{
     width: 56px;
     height: 56px;
     margin-right: 16px;
-    margin-bottom: 29px;
 }
-hr{
+/* .pleyer h4{
+    margin-left: 16px;
+} */
+ hr{
     border: 1px solid #D1D1D1;    
 }
 
@@ -175,7 +183,7 @@ hr{
     color: #FF4A60;
     padding: 3px 6px;
     border-radius: 10px;
-}
+} 
 
 
 /* course part end here */
