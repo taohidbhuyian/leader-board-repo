@@ -22,9 +22,75 @@
     }
     nav ul li {
         margin-left: 0px;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
+    nav ul li a{
+        font-size: 25px;
+    }
+
+    /* header part end */
     .container{
         width: 100%;
     }
+    .title{
+      text-align: center;
+    }
+    .all-pleyer {
+        background-color: red;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .pleyer {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .pleyer-img img {
+        width: 156px;
+        height: 156px;
+        margin-top: 10px;
+    }
+    .pleyer h4{
+        text-align: center;
+    }
+
+    /* blog part start here */
+
+    .all-blog {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .blog {
+        flex-direction: column;
+    }
+    .blog-img img {
+        width: 100%;
+        height: 100%;
+        margin-right: 16px;
+    }
+    .blog-info {
+        text-align: center;
+    }
+
+
+    /* course part start here */
+    .all-course {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .course {
+        width: 100%;
+        /* padding: 13px;
+        box-shadow: 10px 10px 15px #d1d1d1;
+        margin-bottom: 21px;
+        border-radius: 10px; */
+    }
+    .course-img img {
+        width: 100%;
+        height: 100%;
+    }
+    .course-detail{
+        text-align: center;
+    }
+    .course-info {
+        flex-direction: column;
+    }
+
   }
