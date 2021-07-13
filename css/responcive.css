@@ -1,6 +1,6 @@
 /* @media(min-width:480px) */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 688px) {
     
     .nav-bar {
         width: 100%;
@@ -77,10 +77,6 @@
     }
     .course {
         width: 100%;
-        /* padding: 13px;
-        box-shadow: 10px 10px 15px #d1d1d1;
-        margin-bottom: 21px;
-        border-radius: 10px; */
     }
     .course-img img {
         width: 100%;
